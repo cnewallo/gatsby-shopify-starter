@@ -1,0 +1,36 @@
+.section-testimonials {
+   
+    background-color: rgba(0, 0, 0, 0.863);
+    background-size: cover;
+    color: #fff;
+    height: 80vh;
+    margin-top: 600px;
+    width: 100%;
+}
+
+.section-testimonials h2 {
+    text-align: center;
+    padding-left: 50px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+blockquote {
+    display: grid;
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}

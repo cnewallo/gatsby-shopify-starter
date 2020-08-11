@@ -1,0 +1,26 @@
+.fixed-nav-bar {
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  
+  .cart-btn {
+    position: relative;
+    color: rgb(243, 178, 189);
+    cursor: pointer;
+    float: right;
+  }
+  .cart-items {
+    position: absolute;
+    top: 2px;
+    right: 19px;
+    background: var(--primaryColor);
+    padding: 0 5px;
+    border-radius: 30%;
+    color: var(--mainWhite);
+  }

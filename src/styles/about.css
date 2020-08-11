@@ -1,0 +1,41 @@
+.section-story {
+    background-color: rgba(255, 255, 255, 0.87);
+    height: 100vh;
+
+}
+
+.story-img {
+    object-fit: scale-down;
+    width: 100%;
+    height: auto;
+    padding-left: 0px;
+    padding-right: 200px;
+    margin-left: 100px;
+    margin-right: 250px;
+    margin-top: 30px;
+    size: 10%;
+}
+
+.text-a {
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.text-b {
+    margin-right: 200px;
+    margin-left: 200px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+h2 {
+    text-align: center;
+    margin-left: -35px;
+    margin-top: 30px;
+    font-family: 'Tangerine', cursive; 
+    font-size: 90px;
+    font-weight: 500;
+}

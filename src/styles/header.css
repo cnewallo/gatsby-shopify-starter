@@ -1,0 +1,27 @@
+header {
+    background-image: linear-gradient(rgba(223, 221, 221, 0.192), rgba(199, 198, 198, 0.239)), url("../images/header2.jpg"); 
+    background-size: 2500px 1500px;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.logo {
+    height:500px;
+    width: auto;
+    float: left;
+    margin-right: 1200px;
+    margin-top: 130px;
+}
+
+.hero-text-box {
+    position: absolute;
+    color: black;
+    font-size: 18px;
+    font-family: 'Courgette', cursive;
+    width: 500px;
+    top: 60%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+}
+
